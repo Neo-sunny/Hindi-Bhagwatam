@@ -1,90 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="hi">
 <head>
-  <title>Bhagavatam Reading</title>
-
-  <style>
-    body {
-      margin: 0;
-      font-family: Georgia, serif;
-      background: #f4f1ea;
-      display: flex;
-      justify-content: center;
-    }
-
-    .container {
-      max-width: 700px;
-      width: 100%;
-      background: white;
-      padding: 30px;
-      margin-top: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
-
-    h1 {
-      text-align: center;
-      font-size: 36px;
-      margin-bottom: 10px;
-    }
-
-    h2 {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 26px;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin-top: 20px;
-    }
-
-    li {
-      margin: 12px 0;
-      text-align: center;
-    }
-
-    a {
-      text-decoration: none;
-      font-size: 20px;
-      color: #5a3e1b;
-      padding: 8px 12px;
-      border-radius: 6px;
-      transition: 0.2s;
-    }
-
-    a:hover {
-      background: #f0e6d6;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>श्रीमद् भागवतम् - ग्रंथ सूची</title>
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">श्रीमद् भागवतम्</a>
+      <div class="nav-note">हिन्दी पाठ संग्रह</div>
+    </div>
+  </header>
 
-<div class="container">
+  <main class="main">
+    <section class="hero">
+      <h1>श्रीमद् भागवतम्</h1>
+      <p>सभी उपलब्ध ग्रंथों को एक शांत, सरल और मोबाइल-अनुकूल सूची में पढ़ें। प्रत्येक ग्रंथ का अपना पृष्ठ है, जहां विषय-सूची, आमुख, प्रस्तावना और अध्याय क्रम से मिलेंगे।</p>
+    </section>
 
-<h1>Śrīmad Bhagavatam 📖</h1>
+    <section aria-labelledby="books-title">
+      <div class="section-title">
+        <h2 id="books-title">ग्रंथ सूची</h2>
+        <div class="count">1 उपलब्ध ग्रंथ</div>
+      </div>
 
-<h2>Canto 2</h2>
-
-<ul>
-  <li><a href="Canto2/विषय-सूची.pdf" target="_blank"> विषय-सूची </a></li>
-  <li><a href="Canto2/आमुख.pdf" target="_blank"> आमुख </a></li>
-  <li><a href="Canto2/प्रस्तावना.pdf" target="_blank"> प्रस्तावना  </a></li>
-  <li><a href="Canto2/अध्याय-१.pdf" target="_blank"> अध्याय-१ </a></li>
-  <li><a href="Canto2/अध्याय-२.pdf" target="_blank"> अध्याय-२ </a></li>
-  <li><a href="Canto2/अध्याय-३.pdf" target="_blank"> अध्याय-३ </a></li>
-  <li><a href="Canto2/अध्याय-४.pdf" target="_blank"> अध्याय-४ </a></li>
-  <li><a href="Canto2/अध्याय-५.pdf" target="_blank"> अध्याय-५ </a></li>
-  <li><a href="Canto2/अध्याय-६.pdf" target="_blank"> अध्याय-६ </a></li>
-  <li><a href="Canto2/अध्याय-७.pdf" target="_blank"> अध्याय-७ </a></li>
-  <li><a href="Canto2/अध्याय-८.pdf" target="_blank"> अध्याय-८ </a></li>
-  <li><a href="Canto2/अध्याय-९.pdf" target="_blank"> अध्याय-९ </a></li>
-  <li><a href="Canto2/अध्याय-१०.pdf" target="_blank"> अध्याय-१० </a></li>
-</ul>
-
-</div>
-
+      <div class="book-grid">
+        <a class="book-card" href="books/canto-2.html">
+          <div class="book-kicker">ग्रंथ 2 <span class="status">उपलब्ध</span></div>
+          <h3>द्वितीय स्कन्ध</h3>
+          <p>विषय-सूची, आमुख, प्रस्तावना और अध्याय 1 से 10।</p>
+          <span class="open-label">ग्रंथ खोलें</span>
+        </a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
